@@ -3,15 +3,22 @@
 
 ### 1. How to verify if a variable is an array?
 What I know is this one
+
 `Array.isArray(variable);`
+
 But after a short search, I found a much better and faster way to do it
+
 `variable.constructor === Array`
+
 and it seems to be the fastest way that runs on Chrome.
 
 ### 2. What is a ternary operator? Give an example
 Ternary operator is an operator uses three operands. Most often used one is
+
 `[condition]?[expression1]:[expression2]`
+
 which is a short and clean for if statement.
+
 Basically the logic is
 ```js
 if([condition){
@@ -23,11 +30,17 @@ if([condition){
 
 ### 3. What are the differences between null and undefined?
 Difference:
+
 **null**: The value of the variable is defined to be null
+
 `var a = null; //the value of a is null`
+
 **undefined**: The variable is not defined, there should be a value
+
 `var a; //the value of a is not defined`
+
 and
+
 `undefined === null //false`
 
 Same:
