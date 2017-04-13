@@ -21,7 +21,7 @@ which is a short and clean for if statement.
 
 Basically the logic is
 ```js
-if([condition){
+if([condition]){
 	[expression1]
 }else{
 	[expression2]
